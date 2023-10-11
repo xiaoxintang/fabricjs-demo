@@ -11,10 +11,10 @@ function setCanvasSize() {
   console.log('parent', parent, parent.offsetWidth, parent.offsetHeight)
   // canvasRef.value.width = parent.offsetWidth
   // canvasRef.value.height = parent.offsetHeight
-  // canvas.setDimensions({
-  //   width: parent.offsetWidth,
-  //   height: parent.offsetHeight
-  // })
+  canvas.setDimensions({
+    width: parent.offsetWidth,
+    height: parent.offsetHeight
+  })
   canvas.renderAll()
 }
 
